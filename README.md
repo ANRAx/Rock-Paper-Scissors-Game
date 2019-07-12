@@ -1,6 +1,8 @@
 # Rock-Paper-Scissors-Game
 This is a simple Rock, Paper, Scissors game made using vanilla Javascript, Bootstrap, HTML, and custom CSS
 
+THE RULES: 
+
 1. User chooses r, p, or s on keyboard representing rock, paper, or scissors.
 
 2. Computer chooses a random value in a list of r, p, or s.
