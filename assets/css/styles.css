@@ -12,7 +12,7 @@ body {
     display: block;
 }
 
-#introText {
+#introText, #instructionsText {
     background-image: url(../images/floor-tile.png);
 }
 
