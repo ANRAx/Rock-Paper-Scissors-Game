@@ -14,6 +14,8 @@ var instructions = document.getElementById("instructions");
 
 // write a function that runs whenever the user presses a key
 document.onkeyup = function(event) {
+    // Hides the instructions and starts the game
+    instructions.textContent = "";
     // create a variable the stores the key pressed by user
     var userGuess = event.key;
     // create a variable that chooses a choice made random from our comChoice array
@@ -37,8 +39,6 @@ document.onkeyup = function(event) {
         } else if (userGuess === comGuess) {
             ties++;
         }
-        // Hides the instructions
-        instructions.textContent = "";
         // Display scores
         winsNum.textContent = wins;
         lossNum.textContent = losses;
