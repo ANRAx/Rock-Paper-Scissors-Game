@@ -12,6 +12,10 @@ body {
     display: block;
 }
 
+#introText {
+    background-image: url(../images/floor-tile.png);
+}
+
 #paperHome {
     width: 200px;
     height: 200px;
@@ -44,11 +48,18 @@ footer {
 
 /* Game Page */
 #rpsGameCards {
-    margin: 100px 0px 0px 475px;
+    margin: 100px 0px 0px 465px;
 }
 
 #rockGame, #paperGame, #scissorsGame {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+#scoreCounts {
+    color: antiquewhite;
+    margin-top: 25px;
+    background-color: blue;
+    text-align: center;
 }
